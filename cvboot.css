@@ -1,22 +1,22 @@
+body {
+    color: white;
+    background-image: url(image-fond1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 1.8em;
+}
+
 img {
 	
 	align-items:  center;
 	border-radius: 100%;
-	border: solid 5px #504051;
+	
 	max-width: 50%;
 	height: auto;
 	
 }
 
-.container-fluid {
-	color: white;
-	background-image: url(image-fond1.jpg);
-	background-repeat:  no-repeat ;
-	background-size: cover;
-	font-size: 1.3em;
-	padding-bottom: 300px;
-	
-}
 
 aside {
 	background: url(image-presentation1.jpg);
@@ -26,13 +26,7 @@ aside {
 
 }
 
-/*.coord {
-	list-style: none;
-	color: #D4D4ED;	
-	padding-right: 30px;
-	font-family: "arial", serif;
-	
-}*/
+
 
 .metier {
 	
@@ -90,3 +84,4 @@ main {
 	
 	
 }
+
