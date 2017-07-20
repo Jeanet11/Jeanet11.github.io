@@ -12,7 +12,9 @@ img {
 	color: white;
 	background-image: url(image-fond1.jpg);
 	background-repeat:  no-repeat ;
+	background-size: cover;
 	font-size: 1.3em;
+	padding-bottom: 300px;
 	
 }
 
@@ -61,8 +63,10 @@ aside {
 }
 
 a {	
-	justify-content: center;
+	justify-content: space-around;
 	height: 50%;
+	padding-top: 50px;
+
 }
 
 .liste {
