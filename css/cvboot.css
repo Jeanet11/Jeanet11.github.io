@@ -1,17 +1,36 @@
+@media all and (max-width: 768px) 
+{
+
+	.metier {
+
+		text-align: center;
+		font-size: 3em;
+		font-family: "Lobster", cursive;
+		color:#B2B2C0;
+		text-shadow: 8px 8px 10px   #161286;
+	}
+
+	/*img {
+		max-width: 20%;
+		height: auto;
+		border: solid 10px;*/
+	
+}
+
+
 body {
-    color: white;
-    background-image: url(../images/image-fond1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    font-size: 1.8em;
+	color: white;
+	background-image: url(../images/image-fond1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-size: 1.8em;
 }
 
 img {
 	
 	align-items:  center;
 	border-radius: 100%;
-	
 	max-width: 50%;
 	height: auto;
 	
@@ -80,8 +99,27 @@ span{
 	border-right: solid 3px;
 }
 
-main {
-	
-	
-}
 
+/* format mobile : photo seule en haut*/;
+@media all and (max-width: 768px) 
+{
+
+	.metier {
+
+		text-align: center;
+		font-size: 3em;
+		font-family: "Lobster", cursive;
+		color:#B2B2C0;
+		text-shadow: 8px 8px 10px   #161286;
+	}
+
+	img {
+		max-width: 15px;
+		height: auto;
+		border: solid 30px;
+	}
+
+	span {
+		color: yellow;
+	}
+}
