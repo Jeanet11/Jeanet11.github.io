@@ -1,22 +1,22 @@
-@media all and (max-width: 768px) 
+/*@media all and (max-width: 768px) 
 {
 
 	.metier {
 
 		text-align: center;
-		font-size: 3em;
+		font-size: 2em;
 		font-family: "Lobster", cursive;
 		color:#B2B2C0;
 		text-shadow: 8px 8px 10px   #161286;
 	}
 
-	/*img {
+	img {
 		max-width: 20%;
 		height: auto;
-		border: solid 10px;*/
+		border: solid 10px;
 	
 }
-
+}*/
 
 body {
 	color: white;
@@ -24,7 +24,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	font-size: 1.8em;
+	font-size: 1.6em;
 }
 
 img {
@@ -38,7 +38,7 @@ img {
 
 
 aside {
-	background: url(images/image-presentation1.jpg);
+	background: url(../images/image-presentation1.jpg);
 	padding-bottom: 20px;
 	padding-top: 20px;
 	
@@ -46,6 +46,10 @@ aside {
 }
 
 
+.bio {
+	border: solid 3px yellow;
+	margin-top: 20px;
+}
 
 .metier {
 	
