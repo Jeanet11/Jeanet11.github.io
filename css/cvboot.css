@@ -77,12 +77,16 @@ aside {
 
 
 
-a {	
+a{	
 	justify-content: space-around;
 	height: 50%;
 	padding-top: 50px;
 	color: #D777CA;
 
+}
+
+i{
+	color: #D777CA;
 }
 
 .liste {
