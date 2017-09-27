@@ -1,3 +1,18 @@
+@media (min-width: 576px) { 
+
+
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
 
 body {
 	color: white;
@@ -66,7 +81,7 @@ a {
 	justify-content: space-around;
 	height: 50%;
 	padding-top: 50px;
-	/*color: #D777CA;*/
+	color: #D777CA;
 
 }
 
@@ -90,7 +105,7 @@ span{
 
 /* format mobile */
 
-/*@media all and (max-width: 768px) 
+@media all and (max-width: 768px) 
 {
 
 	.metier {
@@ -103,26 +118,12 @@ span{
 	}
 
 }
-*/
+
 /*// Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
 
-
-
-
-}
-
-/*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
-
-/*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { ... }
-
-/*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
 
 /*@media only screen and (max-width: 320px) {
 	.metier { 
