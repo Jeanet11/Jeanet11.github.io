@@ -90,10 +90,20 @@ span{
 
 /* format mobile */
 
-@media all and (max-width: 768px) 
+/*@media all and (max-width: 768px) 
 {
 
-	.metier {
+	
+
+}
+*/
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+.metier {
 
 		text-align: center;
 		font-size: 3em;
@@ -102,7 +112,17 @@ span{
 		text-shadow: 8px 8px 10px   #161286;
 	}
 
+
 }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
 
 /*@media only screen and (max-width: 320px) {
 	.metier { 
