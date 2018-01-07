@@ -16,7 +16,7 @@
 
 body {
 	color: white;
-	background-image: url(../images/image-fond1.jpg);
+	background-image: url(../images/image-fond3.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -32,9 +32,16 @@ img {
 	
 }
 
+i {
+	/* margin-top: 25px; */
+	margin-right: 10px;
 
+}
 aside {
-	background-color: grey;
+	/* background-color: grey; */
+	background-image: url(../images/image-fond1.jpg);
+	background-size: cover;
+	
 	padding-bottom: 20px;
 	padding-top: 20px;
 	border-radius: 5%;
@@ -52,23 +59,31 @@ aside {
 }
 
 .coord {
-	font-size: 1.4em;
+	font-size: 1.2em;
 }
 
+.mobilesOnly {
+        visibility: hidden;
+    }
 
+.liens {
+	margin: 20px;
+}
 .metier {
 	
 	text-align: center;
 	font-size: 4em;
 	font-family: "Lobster", cursive;
-	color:#B2B2C0;
+	/* color:#B2B2C0; */
+	color: #b662ac;
+	
 	text-shadow: 8px 8px 10px   #161286;
 	
 }
 
 .titreCategorie {
 	font-style: italic;
-	color: #D777CA;
+	color: #d777ca;
 	font-size: 1.3em;
 	font-family: 'Lemonada', cursive;
 	border-radius: 2%;
@@ -99,7 +114,7 @@ h1 {
 
 span{
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .separateur {
@@ -123,6 +138,9 @@ span{
 
 }
 
+#ticker01 {
+	font-size: 18px;
+}
 /*// Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
