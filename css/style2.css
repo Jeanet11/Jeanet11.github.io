@@ -1,0 +1,480 @@
+
+body {
+    font-family : 'Hind', sans-serif;
+    font-size   : 15px;
+    line-height : 1.6em;
+    /* color       : #3d3d50; */
+    font-weight : 300;
+      background  : url("../img/image-fond3.jpg")  no-repeat center fixed; 
+      background-size: cover;
+    }
+
+/* --------------------------------------
+ * Global Typography
+ *------------------------------------------*/
+
+ h2, h3, h4, h5, h6 {
+    margin : 0 0 15px;
+    
+    color: rgb(172, 44, 144);
+    }
+
+h1 {
+    font-size   : 50px;  
+     line-height : 1.8em;
+    /* font-weight : 700; */
+    }
+
+h2 {
+    font-size   : 18px;
+    line-height : 1.8em;
+    font-weight : 700;
+   
+    }
+
+h3 {
+    font-size   : 16px;
+    line-height : 1.8em;
+    font-weight : 500;
+    }
+
+h4 {
+    font-size   : 15px;
+    line-height : 1.8em;
+    font-weight : 500;
+    }
+
+h5 {
+    font-size   : 15px;
+    line-height : 1.5em;
+    font-weight : 500;
+    }
+
+h6 {
+    font-size   : 15px;
+    line-height : 1.5em;
+    }
+p {
+   color: rgb(245, 217, 217);
+}
+
+
+.section-title {
+	font-style: italic;
+	color: #11030f;
+	font-size: 1.1em;
+	font-family: 'Lemonada', cursive;
+    border-radius: 2%;
+    padding-bottom: 10px;
+    /* border-bottom: solid  #D777CA ; */
+    /* border-bottom: solid  rgb(6, 2, 70) ; */
+    
+}
+
+/* --------------------------------------
+ * LINK STYLE
+ *------------------------------------------*/
+a {
+    color              : #FFC107;
+    text-decoration    : none;
+    -webkit-transition : all 0.3s ease 0s;
+    -moz-transition    : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition         : all 0.3s ease 0s;
+    }
+
+a,
+a:active,
+a:focus,
+a:active {
+    text-decoration : none;
+    outline         : none
+    }
+
+a:hover,
+a:focus {
+    text-decoration : none;
+    color           : #ff9800;
+    }
+
+p {
+    margin-bottom : 20px;
+    }
+
+ul {
+    margin     : 0;
+    padding    : 0;
+    list-style : none;
+    }
+
+/*------------------
+ * Button Style
+ *------------------*/
+.btn {
+    padding        : 14px 30px 11px;
+    margin-bottom  : 0;
+    font-size      : 14px;
+    font-weight    : 500;
+    border-radius  : 0;
+    border         : 0;
+    text-transform : uppercase;
+    }
+
+.btn-lg {
+    font-weight : 700;
+    font-size   : 24px;
+    padding     : 15px 30px;
+    }
+
+/*btn-primary*/
+.btn-primary {
+    background-color : rgb(207, 65, 177);
+    }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:focus {
+    background : #b9429c;
+    }
+
+/*btn-default*/
+.btn-default {
+    color            : #2a54f5;
+    background-color : transparent;
+    border           : 2px solid #2a54f5;
+    }
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active:focus {
+    background   : #2a54f5;
+    color        : #ffffff;
+    border-color : #2a54f5;
+    }
+
+button:focus,
+.btn:focus,
+.btn:active:focus {
+    outline : none;
+    }
+
+
+
+/* --------------------
+ * Column Block
+ * -------------------*/
+
+.columns-block {
+    display                : -webkit-flex;
+    display                : flex;
+    -webkit-flex-direction : row;
+    flex-direction         : row;
+    margin                 : 20px auto;
+    padding-top              : 30px;
+    /* box-shadow             : 0 0 0 5px #4433a5; */
+    }
+
+.blocks {
+    box-sizing : border-box;
+    }
+
+
+@media (max-width : 768px) {
+
+    .columns-block {
+        display    : block;
+        margin     : 0;
+        box-shadow : none;
+        }
+
+    .left-col-block {
+        width    : 100%;
+        position : relative;
+        border   : 0;
+        }
+
+    .right-col-block {
+        width      : 100%;
+        position   : relative;
+        box-shadow : none;
+        }
+    }
+
+@media (min-width : 769px) and (max-width : 1024px) {
+    .columns-block {
+        margin-top    : 30px;
+        margin-bottom : 30px;
+        }
+    }
+
+/*-------------------
+ * Section Wrapper
+ *-------------------*/
+.section-wrapper {
+    padding       : 40px;
+    border-bottom : 1px solid #eaeaea;
+    }
+
+@media (max-width : 480px) {
+    .section-wrapper {
+        padding : 30px 20px;
+        }
+    }
+
+/*---------------------------
+* Section Title
+*---------------------------*/
+.section-title {
+    margin-bottom : 15px;
+    }
+
+.section-title h2 {
+    margin-bottom : 5px;
+    color         : #bebece;
+    }
+
+/*-----------------------------
+ * NAVIGATION & HEADER STYLE
+ *-----------------------------*/
+
+.header {
+    padding  : 20px !important; 
+    margin   : 0;
+    position : relative;
+    background  : url("../img/image-fond1.jpg"); 
+    color: pink;
+    }
+
+.header .profile-img {
+    margin-bottom : 20px;
+
+   
+    }
+    
+.img-responsive {
+    height: 250px;
+    width: auto;
+    border-radius: 100%;
+
+}
+
+.img-thumbnail {
+    color: rgb(218, 118, 201);
+}
+
+
+.nom {
+	
+	font-size: 1.7em;
+	/* font-weight: bold; */
+	font-family: 'Concert One', cursive;
+	text-align: center;
+	color: rgb(177, 22, 154);
+}
+
+.phone-number {
+    font-size: 24px;
+    color: white;
+}
+
+.email {
+    font-size: 15px;
+    color: white;
+}
+
+
+.header .content-wrapper {
+    position: static;
+    }
+
+.header .content {
+    width  : 100%;
+    margin : 0 auto;
+    }
+
+.header .content h1 {
+    line-height : 1;
+    margin      : 0 0 5px;
+    font-size: 10px;
+    }
+
+.header .content .lead {
+    font-size : 18px;
+    }
+
+.header .content .about-text {
+    margin : 10px 0;
+    }
+
+.header .btn {
+    margin-top : 40px;
+    }
+
+@media (max-width : 768px) {
+    .header {
+        padding       : 0;
+        text-align    : center;
+        border-bottom : 1px solid #ededed;
+        }
+
+    .header img {
+        margin : 0 auto;
+        height: auto;
+        width: 100px;
+        }
+
+    .header .content {
+        padding : 50px;
+        }
+
+    .metier {
+        font-size: 30px;
+        color: black;
+    }
+    }
+
+
+/*-------------------
+ * Social Icon
+ *-------------------*/
+
+.social-icon {
+    margin  : 20px 0;
+    padding : 0;
+    display : block;
+    
+    }
+
+.social-icon li {
+    display : inline-block;
+    margin  : 0 2px;
+    }
+
+.social-icon li a {
+    display       : block;
+    font-size     : 12px;
+    color         : #9e107b;
+    width         : 34px;
+    height        : 34px;
+    line-height   : 33px;
+    text-align    : center;
+
+    }
+
+.social-icon li a:hover {
+    border-color : #cccccc;
+    }
+
+
+/*-------------------
+ * Métier
+ *-------------------*/
+.metier {
+
+    text-align: center;
+	font-size: 3em;
+	font-family: "Lobster", cursive;
+    /* color:#B2B2C0;  */
+     /* position: fixed; */
+    color: #b662ac;
+    /* background-color: rgb(8, 15, 114); */
+	
+	text-shadow: 8px 8px 10px   #161286;
+	
+
+
+	
+    }
+
+/*-------------------
+ * Expertise
+ *-------------------*/
+.expertise-item {
+    margin-bottom : 10px;
+    }
+
+.expertise-item h3 {
+    margin-bottom : 5px;
+    font-weight   : 700;
+    }
+
+/*-------------------
+ * Skills Progressbar
+ *-------------------*/
+
+.progress-item {
+    position : relative;
+    
+    }
+
+.progress-item .progress-title {
+    font-size     : 15px;
+    font-weight   : 400;
+    display       : inline-block;
+    margin-bottom : 5px;
+    color: white;
+    }
+
+.progress-item .progress {
+    height        : 8px;
+    box-shadow    : none;
+    border-radius : 5px;
+    }
+
+.progress-item .progress-bar {
+    background-color : rgb(143, 6, 109);
+    box-shadow       : none;
+    text-align       : right;
+    }
+
+.progress-item .progress-percent {
+    font-size        : 10px;
+    background-color : #2b2626;
+    position         : absolute;
+    top              : 5px;
+    padding          : 0 8px;
+    border-radius    : 3px;
+    }
+
+.progress-item .progress-percent::before {
+    content      : "";
+    position     : absolute;
+    left         : 0;
+    bottom       : -4px;
+    border-top   : 6px solid #313131;
+    border-right : 8px solid transparent;
+    }
+
+
+
+/*-------------------
+ * Content Item
+ *-------------------*/
+
+.content-item {
+    margin-bottom : 30px;
+    }
+
+.content-item h3 {
+    margin         : 0 0 10px;
+    line-height    : 1;
+    font-weight    : bold;
+    text-transform : uppercase;
+    }
+
+.content-item h4 {
+    margin      : 0;
+    line-height : 1;
+    }
+
+.content-item small {
+    color : #888888;
+    }
+
+
+.feedback-form {
+    margin-top : 50px;
+    }
+
+
+
