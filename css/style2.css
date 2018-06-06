@@ -525,6 +525,12 @@ button:focus,
     text-align       : right;
     }
 
+.progress-item .progress-bar-others {
+    background-color : rgb(16, 13, 20);
+    box-shadow       : none;
+    text-align       : right;
+    }
+
 .progress-item .progress-percent {
     font-size        : 10px;
     background-color : #2b2626;
